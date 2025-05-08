@@ -5,17 +5,11 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        set_nums = set(nums)
-        for num in set_nums:
-            if (target - num) != num and (target - num) in set_nums:
-                result_vals = (num, target-num)
-                return [nums.index(num), nums.index(target-num)]
-
-        # if it gets here, the answer is a duplicate
-        val = target // 2
-        result = []
+        num_to_index = {}
         for ix, num in enumerate(nums):
-            if num == val:
-                result.append(ix)
-                if len(result) == 2:
-                    return result
+            if (target - num) in num_to_index:
+                return [num_to_index[(target-num)], ix]
+            else:
+                num_to_index[num] = ix
+        
+        return []
