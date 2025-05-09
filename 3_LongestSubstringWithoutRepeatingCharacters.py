@@ -12,8 +12,7 @@ class Solution(object):
             else:
                 if len(sub_list) > longest:
                     longest = len(sub_list)
-                ix = sub_list.index(char)
-                sub_list = sub_list[ix+1:] + [char]
+                sub_list = sub_list[sub_list.index(char)+1:] + [char]
 
         if len(sub_list) > longest:
             longest = len(sub_list)
