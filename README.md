@@ -6,14 +6,14 @@ This repository contains my Python solutions to various LeetCode problems. I sta
 All solutions are written in Python, and each file includes comments explaining the approach, time complexity, and space complexity.
 
 ## Table of Contents
-- [Arrays](#arrays)
-- [Linked Lists](#linked-lists)
-- [Strings](#strings)
+- [Arrays](/arrays)
+- [Linked Lists](/linked-lists)
+- [Strings](/strings)
 
 ---
 
 ## Arrays
-This section includes solutions to problems involving array manipulation, searching, and sorting.
+Solutions to problems involving array manipulation, searching, and sorting.
 
 | Problem # | Problem Title | Solution Link |
 | :-------- | :------------ | :------------ |
@@ -32,7 +32,7 @@ Solutions to problems focusing on linked lists.
 ---
 
 ## Strings
-This section contains my solutions for string-related problems.
+Solutions to string-related problems.
 
 | Problem # | Problem Title | Solution Link |
 | :-------- | :------------ | :------------ |
