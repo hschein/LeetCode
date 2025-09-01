@@ -18,3 +18,6 @@ class Solution(object):
             longest = len(sub_list)
         
         return longest
+
+# Runtime: 28 ms, beats 35.67% of solutions
+# Memory: 12.42 MB, beats 96.29% of solutions
